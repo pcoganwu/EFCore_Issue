@@ -18,3 +18,8 @@ System.InvalidOperationException: An error was generated for warning 'Microsoft.
 
    Microsoft.EntityFrameworkCore.Tools
    Npgsql.EntityFrameworkCore.PostgreSQL
+
+   Below is the connection string, enter your password.
+
+    "ConnectionStrings": {
+   "DefaultConnection": "Host=localhost;Database=EFCoreDB;Username=postgres;Password={Enter your password}"
