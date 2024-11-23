@@ -5,7 +5,7 @@
         protected BaseObject()
         {
             Id = Guid.NewGuid();
-            CreatedAt = DateTime.UtcNow;
+            CreatedAt = new DateTime(new DateOnly(2024, 11, 22), new TimeOnly(0, 0, 0), DateTimeKind.Utc);
             UpdatedAt  = CreatedAt;
         }
         public Guid Id { get; set; }
