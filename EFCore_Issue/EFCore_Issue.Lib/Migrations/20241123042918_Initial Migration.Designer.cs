@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EFCore_Issue.Lib.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241123003653_Initial Migration")]
+    [Migration("20241123042918_Initial Migration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -95,7 +95,7 @@ namespace EFCore_Issue.Lib.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("cf3c6d17-e638-4a2c-a18b-0e9e81a917ec"),
+                            Id = new Guid("6875c4a1-7668-bc3e-7fa3-f711cd6c5962"),
                             BirthOfDate = new DateOnly(1980, 1, 1),
                             City = "Anytown",
                             Company = "Company A",
@@ -113,7 +113,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("00647b0b-9ee0-4d95-8f45-c376322e3097"),
+                            Id = new Guid("11e3e16e-3be1-c27b-21ce-d051fc580215"),
                             BirthOfDate = new DateOnly(1990, 2, 2),
                             City = "Othertown",
                             Company = "Company B",
@@ -131,7 +131,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("c122dc80-e772-48fb-a125-84ea2cab1b2f"),
+                            Id = new Guid("4d62d555-fab2-c918-a87b-2417c26a4700"),
                             BirthOfDate = new DateOnly(1985, 3, 3),
                             City = "Sometown",
                             Company = "Company C",
@@ -149,7 +149,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("e6779c8c-6976-4da9-adc6-e510c82f8858"),
+                            Id = new Guid("bfd26780-499e-a591-8f34-a4363a8f96a9"),
                             BirthOfDate = new DateOnly(1975, 4, 4),
                             City = "Anycity",
                             Company = "Company D",
@@ -167,7 +167,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("c43cb1fb-f844-4a74-9573-a8de46e5e57c"),
+                            Id = new Guid("1398c92d-b203-c189-d517-7ef0324b513a"),
                             BirthOfDate = new DateOnly(2000, 5, 5),
                             City = "Othercity",
                             Company = "Company E",
@@ -185,7 +185,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8db50e99-deac-44d8-bbb3-42ebc2e6b111"),
+                            Id = new Guid("576e15e6-9645-fe95-84ef-cd7066816fb4"),
                             BirthOfDate = new DateOnly(1980, 6, 6),
                             City = "Newtown",
                             Company = "Company F",
@@ -203,7 +203,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("25410355-21c6-4454-963a-47f8f587fcd2"),
+                            Id = new Guid("005d6e01-18a0-3360-36bc-2a94472c4b0c"),
                             BirthOfDate = new DateOnly(1990, 7, 7),
                             City = "Oldtown",
                             Company = "Company G",
@@ -221,7 +221,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("42b686ca-aa11-4160-b568-7c17997c0ddf"),
+                            Id = new Guid("4d1bb398-57b4-3bdd-7972-ea11858fa895"),
                             BirthOfDate = new DateOnly(1985, 8, 8),
                             City = "Smalltown",
                             Company = "Company H",
@@ -239,7 +239,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("fc5538bd-1d13-4d10-96d7-abb18e751080"),
+                            Id = new Guid("95c21c78-e3ae-c1b6-4300-b8f7b111da9d"),
                             BirthOfDate = new DateOnly(1975, 9, 9),
                             City = "Bigcity",
                             Company = "Company I",
@@ -257,7 +257,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("2e7eabdb-f2f4-409d-ba47-d65912777582"),
+                            Id = new Guid("c94a5687-cf7a-829a-d83b-73c18c8e163a"),
                             BirthOfDate = new DateOnly(2000, 10, 10),
                             City = "Middletown",
                             Company = "Company J",
@@ -275,7 +275,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("71c11416-1be3-447b-bc48-9684cac9853b"),
+                            Id = new Guid("65e65eac-4903-b788-2b4b-a15b639cefd8"),
                             BirthOfDate = new DateOnly(1981, 11, 11),
                             City = "Anyville",
                             Company = "Company K",
@@ -293,7 +293,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("4ac88820-37e6-4ac7-af3b-922ee04829e8"),
+                            Id = new Guid("8d005410-229c-8fe3-1caf-fbeb8c156eaa"),
                             BirthOfDate = new DateOnly(1991, 12, 12),
                             City = "Otherville",
                             Company = "Company L",
@@ -311,7 +311,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("593f2abf-a8a0-4b0a-8a38-3168cf3ed556"),
+                            Id = new Guid("9212c492-f508-aa2f-5585-92a24d5a295d"),
                             BirthOfDate = new DateOnly(1986, 1, 13),
                             City = "Sometown",
                             Company = "Company M",
@@ -329,7 +329,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("3dbdd895-8f9f-4f14-aa68-b856825fb365"),
+                            Id = new Guid("0e438039-45a2-6b29-e6ed-4ec4fc6bc87b"),
                             BirthOfDate = new DateOnly(1976, 2, 14),
                             City = "Anycity",
                             Company = "Company N",
@@ -347,7 +347,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("66ca4a78-4d52-4eb6-86e9-5aec1c1aeb11"),
+                            Id = new Guid("302fab80-4112-bef2-6af1-eeceb19c9d12"),
                             BirthOfDate = new DateOnly(2001, 3, 15),
                             City = "Othercity",
                             Company = "Company O",
@@ -365,7 +365,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a5a4fd9e-7701-486a-8b21-0ace7f7fb2fa"),
+                            Id = new Guid("2a3320f2-1220-d70c-71e9-c4b634fe7057"),
                             BirthOfDate = new DateOnly(1982, 4, 16),
                             City = "Newtown",
                             Company = "Company P",
@@ -383,7 +383,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("6bf5cb6a-02b0-4f78-a1ed-2ddee461d01c"),
+                            Id = new Guid("e5c85334-a0c2-b8f6-17bf-b5c993a01245"),
                             BirthOfDate = new DateOnly(1992, 5, 17),
                             City = "Oldtown",
                             Company = "Company Q",
@@ -401,7 +401,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("04ce7c1b-2b1d-4f2f-8037-ed1ca2069efd"),
+                            Id = new Guid("0079c294-b859-4935-35a8-0c5f00334d63"),
                             BirthOfDate = new DateOnly(1987, 6, 18),
                             City = "Smalltown",
                             Company = "Company R",
@@ -419,7 +419,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1545d11b-177a-4019-8d73-24480a8e639d"),
+                            Id = new Guid("21728ff2-4758-e644-b938-93f4e3f0e20f"),
                             BirthOfDate = new DateOnly(1977, 7, 19),
                             City = "Bigcity",
                             Company = "Company S",
@@ -437,7 +437,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("7a6bdf41-1b56-4fd2-81cf-91d64c9205c3"),
+                            Id = new Guid("109b27c9-107a-9284-93a2-d851fe2db21c"),
                             BirthOfDate = new DateOnly(2002, 8, 20),
                             City = "Middletown",
                             Company = "Company T",
@@ -455,7 +455,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("c0a8dc3f-c3ed-4fe0-b663-7632aaf5b402"),
+                            Id = new Guid("fe1ffa4f-6cb7-b9c4-acf1-82dae3f45719"),
                             BirthOfDate = new DateOnly(1983, 9, 21),
                             City = "Anyville",
                             Company = "Company U",
@@ -473,7 +473,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b01e5999-b4be-466b-8370-4f5283154cc2"),
+                            Id = new Guid("4ead9930-32cc-aa72-c53f-b1307695ceaf"),
                             BirthOfDate = new DateOnly(1993, 10, 22),
                             City = "Otherville",
                             Company = "Company V",
@@ -491,7 +491,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("7ac9ea1d-3dd9-4d22-b10c-3582785590d6"),
+                            Id = new Guid("71a81584-08de-66f5-65a8-52fa67f4fab6"),
                             BirthOfDate = new DateOnly(1988, 11, 23),
                             City = "Sometown",
                             Company = "Company W",
@@ -509,7 +509,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a8afdb99-2c7a-4aa2-9c0f-c53121caa222"),
+                            Id = new Guid("c0c38089-531f-952e-373c-6bc22a5005ef"),
                             BirthOfDate = new DateOnly(1978, 12, 24),
                             City = "Anycity",
                             Company = "Company X",
@@ -527,7 +527,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("cc106dc6-2649-490a-a4d8-fa30438992b6"),
+                            Id = new Guid("5684c9b3-7bf0-e2f6-4f7e-f444168cde76"),
                             BirthOfDate = new DateOnly(2003, 1, 25),
                             City = "Othercity",
                             Company = "Company Y",
@@ -545,7 +545,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("abb29913-84fc-4f17-8ab0-94da274f0a1d"),
+                            Id = new Guid("d12fd11c-a9d6-a205-2d1b-98cb710402e4"),
                             BirthOfDate = new DateOnly(1984, 2, 26),
                             City = "Newtown",
                             Company = "Company Z",
@@ -563,7 +563,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1244ff4f-8268-49ac-956b-6d5d4604f9f3"),
+                            Id = new Guid("6c7035a6-d5b1-9731-ab08-79e604055c63"),
                             BirthOfDate = new DateOnly(1994, 3, 27),
                             City = "Oldtown",
                             Company = "Company AA",
@@ -581,7 +581,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("9ef2868a-43d2-45ac-bd34-e8b9e705dcb1"),
+                            Id = new Guid("b9cc87a4-18b7-9f51-d742-f988fe64bcb1"),
                             BirthOfDate = new DateOnly(1989, 4, 28),
                             City = "Smalltown",
                             Company = "Company BB",
@@ -599,7 +599,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("b1862c94-f6b1-4bbd-be50-714d421a40a7"),
+                            Id = new Guid("5066b859-a9ae-3268-3c47-f637b48de1f9"),
                             BirthOfDate = new DateOnly(1979, 5, 29),
                             City = "Bigcity",
                             Company = "Company CC",
@@ -617,7 +617,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("143cfadd-b96d-444c-bd9d-3aedc36b235b"),
+                            Id = new Guid("06c9a8a5-71ef-779a-a34b-b62574b5cc58"),
                             BirthOfDate = new DateOnly(2004, 6, 30),
                             City = "Middletown",
                             Company = "Company DD",
@@ -635,7 +635,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("46f43253-9a88-4d2d-819f-75f7edb05857"),
+                            Id = new Guid("81fb0083-e5ee-ccbb-ab07-579dab9d0ffc"),
                             BirthOfDate = new DateOnly(1985, 7, 31),
                             City = "Anyville",
                             Company = "Company EE",
@@ -653,7 +653,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("d7dc43de-fef8-41fd-9d76-0314b433ce04"),
+                            Id = new Guid("74c965f4-d428-7258-ed70-5bdf08bdad76"),
                             BirthOfDate = new DateOnly(1995, 8, 1),
                             City = "Otherville",
                             Company = "Company FF",
@@ -671,7 +671,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("ca20a3d8-8b58-48e0-add5-f60cfbb0d2ff"),
+                            Id = new Guid("6421b880-3699-d244-4f23-dfe791b9cae7"),
                             BirthOfDate = new DateOnly(1990, 9, 2),
                             City = "Sometown",
                             Company = "Company GG",
@@ -733,331 +733,331 @@ namespace EFCore_Issue.Lib.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("ee604982-8476-4c1b-8461-ae0c163c36b4"),
+                            Id = new Guid("670fa168-297b-248b-d3fd-e7bb33fc2441"),
                             Color = "Black",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "nike_air_max.jpg",
                             Price = 120.00m,
-                            ProductId = new Guid("a9cc9831-2b17-4591-854e-8bc49163c256"),
+                            ProductId = new Guid("4a2010e7-25d5-5f0e-7b79-30eae97bb30c"),
                             Size = 10,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("40418715-f4f0-4d73-a136-86304eea3dd8"),
+                            Id = new Guid("63d7437e-2893-c36e-dce8-f6ad857e550a"),
                             Color = "White",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "adidas_superstar.jpg",
                             Price = 80.00m,
-                            ProductId = new Guid("b5b3d353-d19d-454c-8b30-2265a88e04fe"),
+                            ProductId = new Guid("7ea840a5-58d8-85c4-70fb-78e31286fb69"),
                             Size = 9,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("dff1534e-6bc4-471c-97f2-3b2d66437079"),
+                            Id = new Guid("5e473cd8-2804-e263-6763-e8f804b98af8"),
                             Color = "Brown",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "clarks_oxford.jpg",
                             Price = 150.00m,
-                            ProductId = new Guid("10900223-0636-477d-9142-af6855cb629c"),
+                            ProductId = new Guid("52b9d002-0dd5-f216-06f4-aea901755001"),
                             Size = 11,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("ffb83faa-e3b2-4deb-919c-934d9ad13f07"),
+                            Id = new Guid("beab39f3-158e-e429-3aed-6d434c10b71b"),
                             Color = "Red",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "puma_soccer_cleats.jpg",
                             Price = 100.00m,
-                            ProductId = new Guid("7ba5ffa5-b3ed-4ae9-bf49-67fdb8572c03"),
+                            ProductId = new Guid("a5141648-1260-5664-96c7-f878112baac5"),
                             Size = 8,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("7459ef4c-81b2-46d7-855f-c44c0cb97f8e"),
+                            Id = new Guid("7cff0680-1d4b-d8d3-5954-0697fe010202"),
                             Color = "Tan",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "timberland_boots.jpg",
                             Price = 200.00m,
-                            ProductId = new Guid("9ed9b0f0-ea82-4d43-9861-4c7315f52507"),
+                            ProductId = new Guid("cbf2dee0-45d3-e682-511a-ef2b9947cc81"),
                             Size = 12,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("7b1f26a6-0bd0-45d4-ba72-1ffbfe3a02b5"),
+                            Id = new Guid("c75c6b0f-3e2b-87ed-88bf-df79d8bd1bff"),
                             Color = "Blue",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "reebok_classic.jpg",
                             Price = 90.00m,
-                            ProductId = new Guid("352827ef-42a8-4117-8340-1c16711c0400"),
+                            ProductId = new Guid("0093d67a-66aa-f6bc-c2b1-ba61e3dd54bd"),
                             Size = 10,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("8834c66a-fe2b-40bb-afd9-f2ec2b494f9e"),
+                            Id = new Guid("c15296ab-2be9-bcc8-a872-90c3e488f1c2"),
                             Color = "Green",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "asics_gel_kayano.jpg",
                             Price = 130.00m,
-                            ProductId = new Guid("c0755372-174a-4c67-807e-5bcd98f30356"),
+                            ProductId = new Guid("7163d1c2-b1a9-e66a-d71a-fd236cdc9fd3"),
                             Size = 9,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("1829fc70-927d-434c-8886-a18690b93069"),
+                            Id = new Guid("5110abf1-3da6-de61-e49e-54e924855d5c"),
                             Color = "Gray",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "new_balance_990.jpg",
                             Price = 160.00m,
-                            ProductId = new Guid("4ce692c1-f6d9-4e69-8f0d-93d1924055b0"),
+                            ProductId = new Guid("b40245e4-085a-39e6-ac26-3a855e475f0f"),
                             Size = 11,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("206d2452-c130-46d5-9e17-7e45b50e90ff"),
+                            Id = new Guid("c4e86df1-4c83-01db-b271-829d693ee04c"),
                             Color = "Black",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "vans_old_skool.jpg",
                             Price = 70.00m,
-                            ProductId = new Guid("fa56f732-0dc6-40b5-ad57-ec4fb6dca62a"),
+                            ProductId = new Guid("235cf756-b2f2-1405-6fb2-271805e43552"),
                             Size = 8,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("eca686cd-9885-47b9-9da4-3ec7a22e98a4"),
+                            Id = new Guid("ca3e4208-7723-31af-135f-e4e5f077964a"),
                             Color = "White",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "converse_chuck_taylor.jpg",
                             Price = 60.00m,
-                            ProductId = new Guid("9f6e1d2b-1377-4390-8eae-7be47c38d18e"),
+                            ProductId = new Guid("86db3be3-d641-8b59-78ac-a700e590f414"),
                             Size = 9,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("e3703a3d-d1d0-4b14-b73f-0492c311d375"),
+                            Id = new Guid("bb5eeaad-9eb1-7aaa-c6cb-61f07f7611fc"),
                             Color = "Brown",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "dr_martens_1460.jpg",
                             Price = 140.00m,
-                            ProductId = new Guid("71e3f427-5050-489e-b036-243d9bd04618"),
+                            ProductId = new Guid("2edd5b84-377b-2cd7-e681-0482139c3d62"),
                             Size = 10,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("8b3d6463-7263-4dc1-8647-e096329ba721"),
+                            Id = new Guid("d1a23498-e2f8-6949-b644-7bd399aa3ae5"),
                             Color = "Black",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "under_armour_curry.jpg",
                             Price = 110.00m,
-                            ProductId = new Guid("4fe2d2bf-0f1d-4cf8-9d63-a08d32c64fa3"),
+                            ProductId = new Guid("34dd818f-77ec-6953-1dfb-a9df69fae86f"),
                             Size = 12,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("cb982547-d393-425e-b540-d9341b3f9634"),
+                            Id = new Guid("6a673ed2-e049-1f63-dc09-e8e97ed5b748"),
                             Color = "Blue",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "mizuno_wave_rider.jpg",
                             Price = 120.00m,
-                            ProductId = new Guid("dc93a9d7-e90c-4b90-9f34-2dcda84e43b0"),
+                            ProductId = new Guid("a1a2ba33-b704-08ab-fba8-5e29ce6f008c"),
                             Size = 11,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("20c9c8a5-5776-409b-9ea4-c5f52d688ca8"),
+                            Id = new Guid("fb64d4ee-3971-a8cd-df3f-0b66cc1132b2"),
                             Color = "Green",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "saucony_kinvara.jpg",
                             Price = 100.00m,
-                            ProductId = new Guid("13abc01e-4ebd-4178-8942-9753236d22e5"),
+                            ProductId = new Guid("aebbda26-90e8-d5d3-95cf-a95525e38fb0"),
                             Size = 9,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("42248eee-9e02-4b66-9107-10789811cfb7"),
+                            Id = new Guid("ab0ed41a-af6d-8181-112c-23c4d10c19e9"),
                             Color = "Gray",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "brooks_ghost.jpg",
                             Price = 130.00m,
-                            ProductId = new Guid("8bff8107-6afe-471c-a3a8-5ea48f6362c0"),
+                            ProductId = new Guid("3e830fe0-36d6-41e8-3fc5-cc2388319e7a"),
                             Size = 10,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("69bc12cc-c9cf-47bf-8314-bc898deca9f0"),
+                            Id = new Guid("15fc68ec-0cde-d216-4bac-a5134567aaeb"),
                             Color = "Black",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "hoka_one_one_clifton.jpg",
                             Price = 140.00m,
-                            ProductId = new Guid("923d7c48-1f0b-4826-b937-1c95082c9787"),
+                            ProductId = new Guid("d2593ee6-d6d2-188a-f8ef-6977b2647a57"),
                             Size = 8,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("50e3edae-c80b-4cfc-82cc-cd49360aa9cc"),
+                            Id = new Guid("a18c7509-4a13-2e15-0f73-dfbaf261325f"),
                             Color = "Red",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "salomon_speedcross.jpg",
                             Price = 150.00m,
-                            ProductId = new Guid("402e1a8e-0d85-4e2f-a0c1-ab775976d0b3"),
+                            ProductId = new Guid("c99e80f5-c2cf-53ab-9928-651606009d92"),
                             Size = 12,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("0bd3b942-8352-4679-9c5c-e39a59c41481"),
+                            Id = new Guid("49d3ee66-be17-fde4-2915-2a45c0ec1ae3"),
                             Color = "Brown",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "merrell_moab.jpg",
                             Price = 160.00m,
-                            ProductId = new Guid("4f097990-1630-4b53-bcb9-76efaa9f8570"),
+                            ProductId = new Guid("48d3aeed-f71c-9133-5077-9d166e47b171"),
                             Size = 11,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("34435aa6-dc8a-42b8-98de-bf78ab4e9877"),
+                            Id = new Guid("02afc0d7-78d9-b37d-a1c9-a664d5e82571"),
                             Color = "Black",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "columbia_newton_ridge.jpg",
                             Price = 170.00m,
-                            ProductId = new Guid("a4d791f8-4917-4192-9520-88422514cda3"),
+                            ProductId = new Guid("dbbe2061-29c5-7299-2686-575121021590"),
                             Size = 10,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("584d27ef-8d0a-45e3-9653-3a04aa1730f6"),
+                            Id = new Guid("684eb9bb-d823-35c5-27a3-c71df5cac876"),
                             Color = "Tan",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "keen_targhee.jpg",
                             Price = 180.00m,
-                            ProductId = new Guid("a650ae15-1de8-4cbc-98bf-ae15ec18cb7d"),
+                            ProductId = new Guid("5ab05728-75e8-fccf-cd8d-b06ca4527493"),
                             Size = 9,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("c370ecd9-87b1-4860-919d-f78ea998b6b5"),
+                            Id = new Guid("906c2769-3edf-0e84-7644-475199f4a5fe"),
                             Color = "Blue",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "la_sportiva_bushido.jpg",
                             Price = 190.00m,
-                            ProductId = new Guid("1d1045b0-54fa-4700-a0f4-cc8f5da3656e"),
+                            ProductId = new Guid("1120b244-d042-6cfb-b59d-5543abedc94f"),
                             Size = 8,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("eb5133e5-30c0-4aa4-93d6-5f98361b91f0"),
+                            Id = new Guid("0ea64811-e4ec-900e-e481-78eb6a7c0f73"),
                             Color = "Green",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "scarpa_mojito.jpg",
                             Price = 200.00m,
-                            ProductId = new Guid("dbbf3543-247f-4f9d-9aa7-d7d92f2b1cb1"),
+                            ProductId = new Guid("2e568493-9d71-c288-dd7a-49532eb42353"),
                             Size = 12,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("4ec52ecb-e9c8-4719-af5d-f7aab7e60d08"),
+                            Id = new Guid("4e60f021-7093-34bf-67f0-93a7954fe3dc"),
                             Color = "Gray",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "arcteryx_norvan.jpg",
                             Price = 210.00m,
-                            ProductId = new Guid("3a0015e7-1a4a-441a-b833-102b2eb6dbff"),
+                            ProductId = new Guid("3079793c-af6d-8e1a-f9d5-d6db4bef52f4"),
                             Size = 11,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("9a8b7165-6bb9-4482-bef2-6248da2e2f1d"),
+                            Id = new Guid("2b842edd-34f3-4aca-8304-37593311e106"),
                             Color = "Black",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "altra_lone_peak.jpg",
                             Price = 220.00m,
-                            ProductId = new Guid("939da1a2-6cb5-4769-b57c-ad4799b5cdb4"),
+                            ProductId = new Guid("fc6206c5-b87e-d216-1c12-8b8e9ab06bb1"),
                             Size = 10,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("9eae8b3e-6eb4-4b47-a615-978920501b0b"),
+                            Id = new Guid("2897eac8-ce11-1d63-2a4f-c3bc40d84c11"),
                             Color = "Red",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "inov8_roclite.jpg",
                             Price = 230.00m,
-                            ProductId = new Guid("6399e9a2-f983-4710-8a8d-5084bc46f9b3"),
+                            ProductId = new Guid("c4e228db-291f-ad06-636c-5bc1f6109d0c"),
                             Size = 9,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("a7b79ca3-70fd-463c-98d9-f29b95fd6124"),
+                            Id = new Guid("3f7e8a0a-718e-86ac-b31d-6cd09650be3d"),
                             Color = "Brown",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "the_north_face_ultra.jpg",
                             Price = 240.00m,
-                            ProductId = new Guid("4fa82311-ed2e-4eb9-b567-fa7f3fcc7f1c"),
+                            ProductId = new Guid("83e9fe64-d98d-bf4f-09a4-afee10eb9944"),
                             Size = 8,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("95485b9f-5af7-4795-b080-521e0b6bfd36"),
+                            Id = new Guid("20e38c5c-697e-e9b8-454d-49de0d402ad7"),
                             Color = "Black",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "patagonia_drifter.jpg",
                             Price = 250.00m,
-                            ProductId = new Guid("594cb715-6f78-4790-b110-936f9064cc1a"),
+                            ProductId = new Guid("cccd4fa8-c51b-9d89-3a3d-107648b8d21d"),
                             Size = 12,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("6a99cce0-ce87-4965-a5ca-7663946834eb"),
+                            Id = new Guid("f18117ec-d1c9-c28b-e60d-65070305e030"),
                             Color = "Blue",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "lowa_renegade.jpg",
                             Price = 260.00m,
-                            ProductId = new Guid("d6e9ea19-7587-4f15-a37d-ffcd7d70041c"),
+                            ProductId = new Guid("259667d1-5408-b3fa-8395-c09c7c78902e"),
                             Size = 11,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("6bfd8120-062a-4231-8af0-dc43821ce08f"),
+                            Id = new Guid("ad68bd8c-6748-ad8c-22a5-37af807ae23b"),
                             Color = "Green",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "oboz_bridger.jpg",
                             Price = 270.00m,
-                            ProductId = new Guid("8d7277fd-a979-4c28-9b8e-b9146a9634d5"),
+                            ProductId = new Guid("34ee2b5c-112c-67e8-634e-1f36ca5bdbfc"),
                             Size = 10,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("f85c8134-b20f-4f3f-aeab-858bd08fd4e3"),
+                            Id = new Guid("7bd784a3-cd37-4859-75f6-a6959d88c776"),
                             Color = "Gray",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Picture = "danner_mountain.jpg",
                             Price = 280.00m,
-                            ProductId = new Guid("2bef756f-02bb-45d7-84e6-078e0df290c3"),
+                            ProductId = new Guid("81856369-e2cf-76f5-ec7a-38afe7948309"),
                             Size = 9,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -1105,302 +1105,302 @@ namespace EFCore_Issue.Lib.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("a9cc9831-2b17-4591-854e-8bc49163c256"),
+                            Id = new Guid("4a2010e7-25d5-5f0e-7b79-30eae97bb30c"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Comfortable running shoes",
                             Name = "Nike Air Max",
                             Supplier = "Nike",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("b5b3d353-d19d-454c-8b30-2265a88e04fe"),
+                            Id = new Guid("7ea840a5-58d8-85c4-70fb-78e31286fb69"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Classic casual shoes",
                             Name = "Adidas Superstar",
                             Supplier = "Adidas",
-                            TypeId = new Guid("d772e486-6e9b-4510-b854-d242351db14c"),
+                            TypeId = new Guid("f1605d4e-42d2-0770-c464-4b790ad05852"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("10900223-0636-477d-9142-af6855cb629c"),
+                            Id = new Guid("52b9d002-0dd5-f216-06f4-aea901755001"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Elegant formal shoes",
                             Name = "Clarks Oxford",
                             Supplier = "Clarks",
-                            TypeId = new Guid("2c066807-374b-4783-92be-9c632f40beca"),
+                            TypeId = new Guid("9627db3a-1cb3-bb94-a9f1-c8a178c7198d"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("7ba5ffa5-b3ed-4ae9-bf49-67fdb8572c03"),
+                            Id = new Guid("a5141648-1260-5664-96c7-f878112baac5"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "High-performance soccer cleats",
                             Name = "Puma Soccer Cleats",
                             Supplier = "Puma",
-                            TypeId = new Guid("fa10dd62-1a70-4f16-ace2-003dd325be49"),
+                            TypeId = new Guid("d56250d0-cf45-01ef-c894-f16b51cf64b2"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("9ed9b0f0-ea82-4d43-9861-4c7315f52507"),
+                            Id = new Guid("cbf2dee0-45d3-e682-511a-ef2b9947cc81"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Durable outdoor boots",
                             Name = "Timberland Boots",
                             Supplier = "Timberland",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("352827ef-42a8-4117-8340-1c16711c0400"),
+                            Id = new Guid("0093d67a-66aa-f6bc-c2b1-ba61e3dd54bd"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Timeless casual shoes",
                             Name = "Reebok Classic",
                             Supplier = "Reebok",
-                            TypeId = new Guid("d772e486-6e9b-4510-b854-d242351db14c"),
+                            TypeId = new Guid("f1605d4e-42d2-0770-c464-4b790ad05852"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("c0755372-174a-4c67-807e-5bcd98f30356"),
+                            Id = new Guid("7163d1c2-b1a9-e66a-d71a-fd236cdc9fd3"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Stability running shoes",
                             Name = "Asics Gel-Kayano",
                             Supplier = "Asics",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("4ce692c1-f6d9-4e69-8f0d-93d1924055b0"),
+                            Id = new Guid("b40245e4-085a-39e6-ac26-3a855e475f0f"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Premium running shoes",
                             Name = "New Balance 990",
                             Supplier = "New Balance",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("fa56f732-0dc6-40b5-ad57-ec4fb6dca62a"),
+                            Id = new Guid("235cf756-b2f2-1405-6fb2-271805e43552"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Classic skate shoes",
                             Name = "Vans Old Skool",
                             Supplier = "Vans",
-                            TypeId = new Guid("d772e486-6e9b-4510-b854-d242351db14c"),
+                            TypeId = new Guid("f1605d4e-42d2-0770-c464-4b790ad05852"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("9f6e1d2b-1377-4390-8eae-7be47c38d18e"),
+                            Id = new Guid("86db3be3-d641-8b59-78ac-a700e590f414"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Iconic casual shoes",
                             Name = "Converse Chuck Taylor",
                             Supplier = "Converse",
-                            TypeId = new Guid("d772e486-6e9b-4510-b854-d242351db14c"),
+                            TypeId = new Guid("f1605d4e-42d2-0770-c464-4b790ad05852"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("71e3f427-5050-489e-b036-243d9bd04618"),
+                            Id = new Guid("2edd5b84-377b-2cd7-e681-0482139c3d62"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Classic boots",
                             Name = "Dr. Martens 1460",
                             Supplier = "Dr. Martens",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("4fe2d2bf-0f1d-4cf8-9d63-a08d32c64fa3"),
+                            Id = new Guid("34dd818f-77ec-6953-1dfb-a9df69fae86f"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Basketball shoes",
                             Name = "Under Armour Curry",
                             Supplier = "Under Armour",
-                            TypeId = new Guid("fa10dd62-1a70-4f16-ace2-003dd325be49"),
+                            TypeId = new Guid("d56250d0-cf45-01ef-c894-f16b51cf64b2"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("dc93a9d7-e90c-4b90-9f34-2dcda84e43b0"),
+                            Id = new Guid("a1a2ba33-b704-08ab-fba8-5e29ce6f008c"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Cushioned running shoes",
                             Name = "Mizuno Wave Rider",
                             Supplier = "Mizuno",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("13abc01e-4ebd-4178-8942-9753236d22e5"),
+                            Id = new Guid("aebbda26-90e8-d5d3-95cf-a95525e38fb0"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Lightweight running shoes",
                             Name = "Saucony Kinvara",
                             Supplier = "Saucony",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("8bff8107-6afe-471c-a3a8-5ea48f6362c0"),
+                            Id = new Guid("3e830fe0-36d6-41e8-3fc5-cc2388319e7a"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Neutral running shoes",
                             Name = "Brooks Ghost",
                             Supplier = "Brooks",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("923d7c48-1f0b-4826-b937-1c95082c9787"),
+                            Id = new Guid("d2593ee6-d6d2-188a-f8ef-6977b2647a57"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Maximalist running shoes",
                             Name = "Hoka One One Clifton",
                             Supplier = "Hoka One One",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("402e1a8e-0d85-4e2f-a0c1-ab775976d0b3"),
+                            Id = new Guid("c99e80f5-c2cf-53ab-9928-651606009d92"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Trail running shoes",
                             Name = "Salomon Speedcross",
                             Supplier = "Salomon",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("4f097990-1630-4b53-bcb9-76efaa9f8570"),
+                            Id = new Guid("48d3aeed-f71c-9133-5077-9d166e47b171"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Hiking boots",
                             Name = "Merrell Moab",
                             Supplier = "Merrell",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("a4d791f8-4917-4192-9520-88422514cda3"),
+                            Id = new Guid("dbbe2061-29c5-7299-2686-575121021590"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Waterproof hiking boots",
                             Name = "Columbia Newton Ridge",
                             Supplier = "Columbia",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("a650ae15-1de8-4cbc-98bf-ae15ec18cb7d"),
+                            Id = new Guid("5ab05728-75e8-fccf-cd8d-b06ca4527493"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "All-terrain hiking boots",
                             Name = "Keen Targhee",
                             Supplier = "Keen",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("1d1045b0-54fa-4700-a0f4-cc8f5da3656e"),
+                            Id = new Guid("1120b244-d042-6cfb-b59d-5543abedc94f"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Technical trail running shoes",
                             Name = "La Sportiva Bushido",
                             Supplier = "La Sportiva",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("dbbf3543-247f-4f9d-9aa7-d7d92f2b1cb1"),
+                            Id = new Guid("2e568493-9d71-c288-dd7a-49532eb42353"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Approach shoes",
                             Name = "Scarpa Mojito",
                             Supplier = "Scarpa",
-                            TypeId = new Guid("d772e486-6e9b-4510-b854-d242351db14c"),
+                            TypeId = new Guid("f1605d4e-42d2-0770-c464-4b790ad05852"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("3a0015e7-1a4a-441a-b833-102b2eb6dbff"),
+                            Id = new Guid("3079793c-af6d-8e1a-f9d5-d6db4bef52f4"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Trail running shoes",
                             Name = "Arc'teryx Norvan",
                             Supplier = "Arc'teryx",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("939da1a2-6cb5-4769-b57c-ad4799b5cdb4"),
+                            Id = new Guid("fc6206c5-b87e-d216-1c12-8b8e9ab06bb1"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Zero-drop trail running shoes",
                             Name = "Altra Lone Peak",
                             Supplier = "Altra",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("6399e9a2-f983-4710-8a8d-5084bc46f9b3"),
+                            Id = new Guid("c4e228db-291f-ad06-636c-5bc1f6109d0c"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Versatile trail running shoes",
                             Name = "Inov-8 Roclite",
                             Supplier = "Inov-8",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("4fa82311-ed2e-4eb9-b567-fa7f3fcc7f1c"),
+                            Id = new Guid("83e9fe64-d98d-bf4f-09a4-afee10eb9944"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Trail running shoes",
                             Name = "The North Face Ultra",
                             Supplier = "The North Face",
-                            TypeId = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            TypeId = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("594cb715-6f78-4790-b110-936f9064cc1a"),
+                            Id = new Guid("cccd4fa8-c51b-9d89-3a3d-107648b8d21d"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Eco-friendly hiking shoes",
                             Name = "Patagonia Drifter",
                             Supplier = "Patagonia",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("d6e9ea19-7587-4f15-a37d-ffcd7d70041c"),
+                            Id = new Guid("259667d1-5408-b3fa-8395-c09c7c78902e"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Sturdy hiking boots",
                             Name = "Lowa Renegade",
                             Supplier = "Lowa",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("8d7277fd-a979-4c28-9b8e-b9146a9634d5"),
+                            Id = new Guid("34ee2b5c-112c-67e8-634e-1f36ca5bdbfc"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Waterproof hiking boots",
                             Name = "Oboz Bridger",
                             Supplier = "Oboz",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("2bef756f-02bb-45d7-84e6-078e0df290c3"),
+                            Id = new Guid("81856369-e2cf-76f5-ec7a-38afe7948309"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Heritage hiking boots",
                             Name = "Danner Mountain",
                             Supplier = "Danner",
-                            TypeId = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            TypeId = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
@@ -1434,35 +1434,35 @@ namespace EFCore_Issue.Lib.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("e879aaed-1250-4471-81b6-3f1eb6111efa"),
+                            Id = new Guid("a4e61ac2-216b-f970-1e1f-72b77372aefe"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Running",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("d772e486-6e9b-4510-b854-d242351db14c"),
+                            Id = new Guid("f1605d4e-42d2-0770-c464-4b790ad05852"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Casual",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("2c066807-374b-4783-92be-9c632f40beca"),
+                            Id = new Guid("9627db3a-1cb3-bb94-a9f1-c8a178c7198d"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Formal",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("fa10dd62-1a70-4f16-ace2-003dd325be49"),
+                            Id = new Guid("d56250d0-cf45-01ef-c894-f16b51cf64b2"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sports",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("23bfd419-5695-4fec-ab63-cec6d84b4da1"),
+                            Id = new Guid("d496fa08-6e15-bcf2-5729-83b84631a083"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Boots",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -1516,60 +1516,60 @@ namespace EFCore_Issue.Lib.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("ae9470d4-eaad-40b8-859f-e43c73309169"),
+                            Id = new Guid("91903feb-a365-1b66-e8c5-7748450fe2cb"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Discount = 0.10m,
-                            ItemId = new Guid("ee604982-8476-4c1b-8461-ae0c163c36b4"),
+                            ItemId = new Guid("670fa168-297b-248b-d3fd-e7bb33fc2441"),
                             Quantity = 2,
-                            SalesOrderId = new Guid("1ee66148-e4ce-4dcb-ac43-965d34ff6318"),
+                            SalesOrderId = new Guid("dfb15180-1d22-5ebb-d6a5-4f81431972d3"),
                             SalesTaxRate = 0.07m,
                             Taxable = true,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("31697bc0-7d56-476c-b4e6-70010354fb70"),
+                            Id = new Guid("e92c4885-5f78-413f-80ec-79e1d92033f7"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Discount = 0.05m,
-                            ItemId = new Guid("40418715-f4f0-4d73-a136-86304eea3dd8"),
+                            ItemId = new Guid("63d7437e-2893-c36e-dce8-f6ad857e550a"),
                             Quantity = 1,
-                            SalesOrderId = new Guid("7c85eff2-7c76-4c6d-baea-dee41885dc19"),
+                            SalesOrderId = new Guid("93d2e010-f843-c1ab-9e78-31b026b4ca3a"),
                             SalesTaxRate = 0.07m,
                             Taxable = true,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("690d55a4-e4b4-424e-ba2f-9e38dd1bcfeb"),
+                            Id = new Guid("17314d75-064e-71f3-23ab-1cf7af54f047"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Discount = 0.15m,
-                            ItemId = new Guid("ffb83faa-e3b2-4deb-919c-934d9ad13f07"),
+                            ItemId = new Guid("beab39f3-158e-e429-3aed-6d434c10b71b"),
                             Quantity = 3,
-                            SalesOrderId = new Guid("f97f9051-f8e5-4b0b-8e44-6d6a03c1728b"),
+                            SalesOrderId = new Guid("f810c4f9-172a-5ac8-70a5-5f6572b5056c"),
                             SalesTaxRate = 0.00m,
                             Taxable = false,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("e9b0a210-40a9-42a7-b214-5edc165a70ea"),
+                            Id = new Guid("5dd6cca7-f3ba-f664-df7e-83c3193d3a0f"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Discount = 0.20m,
-                            ItemId = new Guid("dff1534e-6bc4-471c-97f2-3b2d66437079"),
+                            ItemId = new Guid("5e473cd8-2804-e263-6763-e8f804b98af8"),
                             Quantity = 4,
-                            SalesOrderId = new Guid("5e678e3b-fddb-47fb-a6a3-6194be83277a"),
+                            SalesOrderId = new Guid("8a4fd003-8672-5f65-d288-9f008718ba90"),
                             SalesTaxRate = 0.07m,
                             Taxable = true,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("2cf8418a-e54a-4632-8441-feba803d7b53"),
+                            Id = new Guid("e9a8bb0b-3e5a-cb5a-ed10-ae5070b7813d"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Discount = 0.10m,
-                            ItemId = new Guid("ffb83faa-e3b2-4deb-919c-934d9ad13f07"),
+                            ItemId = new Guid("beab39f3-158e-e429-3aed-6d434c10b71b"),
                             Quantity = 2,
-                            SalesOrderId = new Guid("f97f9051-f8e5-4b0b-8e44-6d6a03c1728b"),
+                            SalesOrderId = new Guid("f810c4f9-172a-5ac8-70a5-5f6572b5056c"),
                             SalesTaxRate = 0.07m,
                             Taxable = true,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -1634,76 +1634,76 @@ namespace EFCore_Issue.Lib.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("c360bb51-6146-4cae-88b5-8d45b5f14149"),
+                            Id = new Guid("1be75f9b-bc26-d99f-68b9-e7aef05d2b29"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CreditCardExpireDay = (short)31,
                             CreditCardExpireMonth = (short)12,
                             CreditCardExpireSecretCode = (short)123,
                             CreditCardNumber = "1234567812345678",
-                            CustId = new Guid("cf3c6d17-e638-4a2c-a18b-0e9e81a917ec"),
+                            CustId = new Guid("6875c4a1-7668-bc3e-7fa3-f711cd6c5962"),
                             NameOnCard = "John Doe",
                             PurchaseOrderNumber = 1001,
-                            SalesPersonId = new Guid("15ce0fc9-3f20-4259-803b-01cfb1542ffa"),
+                            SalesPersonId = new Guid("5758d99e-2ddd-d22a-bae2-58bca85eea16"),
                             TimeOrderTaken = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("1ee66148-e4ce-4dcb-ac43-965d34ff6318"),
+                            Id = new Guid("dfb15180-1d22-5ebb-d6a5-4f81431972d3"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CreditCardExpireDay = (short)30,
                             CreditCardExpireMonth = (short)11,
                             CreditCardExpireSecretCode = (short)234,
                             CreditCardNumber = "2345678923456789",
-                            CustId = new Guid("00647b0b-9ee0-4d95-8f45-c376322e3097"),
+                            CustId = new Guid("11e3e16e-3be1-c27b-21ce-d051fc580215"),
                             NameOnCard = "Jane Smith",
                             PurchaseOrderNumber = 1002,
-                            SalesPersonId = new Guid("fdb00d75-7378-424b-9570-cbfa1a935bf6"),
+                            SalesPersonId = new Guid("07e792e5-664b-4098-df0f-382a547d13c4"),
                             TimeOrderTaken = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("7c85eff2-7c76-4c6d-baea-dee41885dc19"),
+                            Id = new Guid("93d2e010-f843-c1ab-9e78-31b026b4ca3a"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CreditCardExpireDay = (short)29,
                             CreditCardExpireMonth = (short)10,
                             CreditCardExpireSecretCode = (short)345,
                             CreditCardNumber = "3456789034567890",
-                            CustId = new Guid("c122dc80-e772-48fb-a125-84ea2cab1b2f"),
+                            CustId = new Guid("4d62d555-fab2-c918-a87b-2417c26a4700"),
                             NameOnCard = "Alice Johnson",
                             PurchaseOrderNumber = 1003,
-                            SalesPersonId = new Guid("2380867f-3642-4e0e-a24f-75c6535adf0a"),
+                            SalesPersonId = new Guid("940f8dc8-de5f-d316-c58c-dffe7f24cf73"),
                             TimeOrderTaken = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("5e678e3b-fddb-47fb-a6a3-6194be83277a"),
+                            Id = new Guid("8a4fd003-8672-5f65-d288-9f008718ba90"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CreditCardExpireDay = (short)28,
                             CreditCardExpireMonth = (short)9,
                             CreditCardExpireSecretCode = (short)456,
                             CreditCardNumber = "4567890145678901",
-                            CustId = new Guid("e6779c8c-6976-4da9-adc6-e510c82f8858"),
+                            CustId = new Guid("bfd26780-499e-a591-8f34-a4363a8f96a9"),
                             NameOnCard = "Bob Brown",
                             PurchaseOrderNumber = 1004,
-                            SalesPersonId = new Guid("e0713885-674f-435a-b27a-7a32aff46e8e"),
+                            SalesPersonId = new Guid("7340aa82-0ec8-5f37-a95d-313d150baf49"),
                             TimeOrderTaken = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
-                            Id = new Guid("f97f9051-f8e5-4b0b-8e44-6d6a03c1728b"),
+                            Id = new Guid("f810c4f9-172a-5ac8-70a5-5f6572b5056c"),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CreditCardExpireDay = (short)27,
                             CreditCardExpireMonth = (short)8,
                             CreditCardExpireSecretCode = (short)567,
                             CreditCardNumber = "5678901256789012",
-                            CustId = new Guid("c43cb1fb-f844-4a74-9573-a8de46e5e57c"),
+                            CustId = new Guid("1398c92d-b203-c189-d517-7ef0324b513a"),
                             NameOnCard = "Charlie Davis",
                             PurchaseOrderNumber = 1005,
-                            SalesPersonId = new Guid("0f030a6a-97ac-4d9d-b482-2eb8d064cd1a"),
+                            SalesPersonId = new Guid("ecdf557d-4cc2-cd87-5f3b-c5078532cc92"),
                             TimeOrderTaken = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -1775,7 +1775,7 @@ namespace EFCore_Issue.Lib.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("15ce0fc9-3f20-4259-803b-01cfb1542ffa"),
+                            Id = new Guid("5758d99e-2ddd-d22a-bae2-58bca85eea16"),
                             BirthOfDate = new DateOnly(1980, 6, 6),
                             City = "Newtown",
                             CreatedAt = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
@@ -1792,7 +1792,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("fdb00d75-7378-424b-9570-cbfa1a935bf6"),
+                            Id = new Guid("07e792e5-664b-4098-df0f-382a547d13c4"),
                             BirthOfDate = new DateOnly(1990, 7, 7),
                             City = "Oldtown",
                             CreatedAt = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
@@ -1809,7 +1809,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("2380867f-3642-4e0e-a24f-75c6535adf0a"),
+                            Id = new Guid("940f8dc8-de5f-d316-c58c-dffe7f24cf73"),
                             BirthOfDate = new DateOnly(1985, 8, 8),
                             City = "Smalltown",
                             CreatedAt = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
@@ -1826,7 +1826,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("e0713885-674f-435a-b27a-7a32aff46e8e"),
+                            Id = new Guid("7340aa82-0ec8-5f37-a95d-313d150baf49"),
                             BirthOfDate = new DateOnly(1975, 9, 9),
                             City = "Bigcity",
                             CreatedAt = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
@@ -1843,7 +1843,7 @@ namespace EFCore_Issue.Lib.Migrations
                         },
                         new
                         {
-                            Id = new Guid("0f030a6a-97ac-4d9d-b482-2eb8d064cd1a"),
+                            Id = new Guid("ecdf557d-4cc2-cd87-5f3b-c5078532cc92"),
                             BirthOfDate = new DateOnly(2000, 10, 10),
                             City = "Middletown",
                             CreatedAt = new DateTime(2024, 11, 22, 0, 0, 0, 0, DateTimeKind.Utc),
